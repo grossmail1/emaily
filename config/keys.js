@@ -1,4 +1,8 @@
-module.exports = {
-	googleClientId: '897861894742-7t86h6i16f8d7gcllj2bh1iigifo24qn.apps.googleusercontent.com',
-	googleClientSecret: 'D5b5Ykfhy_Z44RAhm5T3BLWs'
-};
+// keys.js decide which env we are in
+if (process.env.NODE_ENV === 'production') {
+	// use prod keys
+	module.exports = require('./prod')
+} else {
+	// use dev keys
+	module.exports = require('./dev')
+}
