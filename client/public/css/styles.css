@@ -1,0 +1,273 @@
+/* CSS Reset */
+html{color:#000;background:#FFF;}body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,form,fieldset,legend,input,textarea,p,blockquote,th,td{margin:0;padding:0;}table{border-collapse:collapse;border-spacing:0;}fieldset,img{border:0;}address,caption,cite,code,dfn,em,strong,th,var{font-style:normal;font-weight:normal;}li{list-style:none;}caption,th{text-align:left;}h1,h2,h3,h4,h5,h6{font-size:100%;font-weight:normal;}q:before,q:after{content:'';}abbr,acronym{border:0;font-variant:normal;}sup{vertical-align:text-top;}sub{vertical-align:text-bottom;}input,textarea,select{font-family:inherit;font-size:inherit;font-weight:inherit;}input,textarea,select{font-size:100%;}legend{color:#000;}
+
+/* body, html { background-color: #999; } */
+
+@font-face {
+	font-family:"arial-regular";
+	src: url(../fonts/Arial.otf);
+}
+@font-face {
+	font-family:"morebi-rounded-medium";
+	src: url(../fonts/GT-CANARY-MorebiRounded-Medium.otf);
+}
+@font-face {
+	font-family:"morebi-rounded-black";
+	src: url(../fonts/GT-CANARY-MorebiRounded-Black.otf);
+}
+@font-face {
+	font-family:"morebi-rounded-black-italic";
+	src: url(../fonts/GT-CANARY-MorebiRounded-BlackItalic.otf);
+}
+@font-face {
+	font-family:"tactical-regular";
+	src: url(../fonts/Positype-Tactical-Regular.otf);
+}
+@font-face {
+	font-family:"tactical-oblique";
+	src: url(../fonts/Positype-Tactical-Oblique.otf);
+}
+@font-face {
+	font-family:"tactical-stencil";
+	src: url(../fonts/Positype-Tactical-Stencil.otf);
+}
+@font-face {
+	font-family:"tactical-stencil-oblique";
+	src: url(../fonts/Positype-Tactical-StencilOblique.otf);
+}
+.font-1 {
+	font-family:"morebi-rounded-medium";
+	font-size:7px;
+	line-height:10px;
+}
+.font-2 {
+	font-family:"arial-regular";
+	font-size:7px;
+	line-height:0px;
+}
+.font-3 {
+	font-family:"morebi-rounded-medium";
+	font-size:8px;
+	line-height:17px;
+}
+.font-4 {
+	font-family:"morebi-rounded-medium";
+	font-size:12px;
+	line-height:27px;
+}
+.font-5 {
+	font-family:"morebi-rounded-black";
+	font-size:18px;
+	line-height:23px;
+}
+.font-6 {
+	font-family:"morebi-rounded-black";
+	font-size:18px;
+	line-height:22px;
+}
+.font-7 {
+	font-family:"tactical-regular";
+	font-size:30px;
+	line-height:36px;
+}
+.font-8 {
+	font-family:"morebi-rounded-medium";
+	font-size:23px;
+	line-height:36px;
+}
+.font-9 {
+	font-family:"morebi-rounded-medium";
+	font-size:23px;
+	line-height:39px;
+}
+.font-10 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:23px;
+	line-height:39px;
+}
+.font-11 {
+	font-family:"morebi-rounded-black";
+	font-size:29px;
+	line-height:39px;
+}
+.font-12 {
+	font-family:"morebi-rounded-black";
+	font-size:24px;
+	line-height:39px;
+}
+.font-13 {
+	font-family:"tactical-stencil";
+	font-size:24px;
+	line-height:39px;
+}
+.font-14 {
+	font-family:"tactical-oblique";
+	font-size:27px;
+	line-height:39px;
+}
+.font-15 {
+	font-family:"tactical-regular";
+	font-size:33px;
+	line-height:36px;
+}
+.font-16 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:23px;
+	line-height:36px;
+}
+.font-17 {
+	font-family:"morebi-rounded-black";
+	font-size:23px;
+	line-height:39px;
+}
+.font-18 {
+	font-family:"tactical-regular";
+	font-size:27px;
+	line-height:39px;
+}
+.font-19 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:26px;
+	line-height:39px;
+}
+.font-20 {
+	font-family:"tactical-regular";
+	font-size:23px;
+	line-height:39px;
+}
+.font-21 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:24px;
+	line-height:39px;
+}
+.font-22 {
+	font-family:"morebi-rounded-black";
+	font-size:27px;
+	line-height:39px;
+}
+.font-23 {
+	font-family:"morebi-rounded-black";
+	font-size:30px;
+	line-height:36px;
+}
+.font-24 {
+	font-family:"tactical-oblique";
+	font-size:38px;
+	line-height:39px;
+}
+.font-25 {
+	font-family:"morebi-rounded-medium";
+	font-size:28px;
+	line-height:39px;
+}
+.font-26 {
+	font-family:"morebi-rounded-medium";
+	font-size:23px;
+	line-height:32px;
+}
+.font-27 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:30px;
+	line-height:39px;
+}
+.font-28 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:36px;
+	line-height:39px;
+}
+.font-29 {
+	font-family:"morebi-rounded-black-italic";
+	font-size:33px;
+	line-height:39px;
+}
+.font-30 {
+	font-family:"morebi-rounded-medium";
+	font-size:23px;
+	line-height:30px;
+}
+.font-31 {
+	font-family:"tactical-stencil-oblique";
+	font-size:30px;
+	line-height:39px;
+}
+
+.font-svg1 {
+	font-family: "tactical-stencil";
+	font-size: 23px;
+	line-height: 32px;
+}
+.font-svg2 {
+	font-family: "tactical-stencil";
+	font-size: 20px;
+	line-height: 32px;
+}
+.font-svg3 {
+	font-family: "morebi-rounded-medium";
+	font-size: 24px;
+	line-height: 32px;
+}
+.font-svg4 {
+	font-family: "morebi-rounded-black-italic";
+	font-size: 30px;
+	line-height: 32px;
+}
+.font-svg5 {
+	font-family: "tactical-regular";
+	font-size: 60px;
+	line-height: 60px;
+}
+.font-svg6 {
+	font-family: "morebi-rounded-black";
+	font-size: 24px;
+	line-height: 32px;
+}
+.font-svg7 {
+	font-family: "morebi-rounded-medium";
+	font-size: 20px;
+	line-height: 32px;
+}
+.embedded-media1 { color: #2260A7; }
+.embedded-media2 { color: #B74326; }
+.embedded-media3 { color: #13936F; }
+.embedded-media4 { color: #912266; }
+.embedded-media5 { color: #D63F40; }
+.embedded-media5svg { fill: #D63F40; }
+.embedded-media6 { color: #733C70; }
+.embedded-media6svg { fill: #733C70; }
+.embedded-media7 { color: #C91A36; }
+.embedded-media8 { color: #0CA948; }
+.embedded-media9 { color: #834B4B; }
+.text-frame { position:absolute; }
+.text-frame p { margin:0; text-indent:1.7em; }
+.center { text-align:center; }
+.right { text-align:right; }
+.left { text-align:left; }
+.justify { text-align:justify; }
+.no-indent { text-indent:0 !important; }
+.no-indent p { text-indent:0 !important; }
+.smallcaps { font-variant:small-caps; }
+.allcaps { text-transform:uppercase; }
+.text-frame { border:0px solid red; } /* For troubleshooting only */
+.media-overlay-active { color:#f00 !important; } /* For audio books */
+tspan.media-overlay-active { fill: #f00 !important; } /* for tspan highlighting */
+.media-overlay-active span.embedded-media1,
+.media-overlay-active span.embedded-media3,
+.media-overlay-active span.embedded-media4,
+.media-overlay-active span.embedded-media6,
+.media-overlay-active span.embedded-media8,
+.media-overlay-active span.embedded-media9,
+.media-overlay-active span.embedded-media-black1 { color:#f00 !important; } /* For audio books */
+.media-overlay-active span.embedded-media2,
+.media-overlay-active span.embedded-media5,
+.media-overlay-active span.embedded-media7,
+.media-overlay-active span.embedded-media-black2, 
+.media-overlay-active span.embedded-media-black3 { color: #FF7726 !important; }
+.media-overlay-active tspan.embedded-media6svg,
+.media-overlay-active tspan.embedded-media-black1 { fill:#f00 !important; } /* For audio books */
+.media-overlay-active tspan.embedded-media5svg,
+.media-overlay-active tspan.embedded-media-black2 { fill: #FF7726 !important; }
+.page, .page img { width:738px; height:891px; overflow:hidden; position:absolute; }
+.pageKF8 { width:1476px; height:891px; overflow:hidden; position:relative; background-size:100% 100% !important; }
+.pageKF8-single { width:738px; height:891px; position:relative; background-size:100% 100% !important; left:25%; }
+/*span { color:#f6f !important; }*/
+.credit-upspacer1 { margin-top: -.3em !important; }
